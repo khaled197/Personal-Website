@@ -1,0 +1,35 @@
+p {
+    font: 20px/1.6 Arial, sans-serif;
+}
+
+a, a:visited, button {
+    text-decoration: none;
+    font: 20px/1.6 Arial, sans-serif;
+    color: blue;
+}
+
+h3 {
+    font: bold 25px/1.6 Arial, sans-serif;
+}
+
+h2 {
+    font: bold 35px/1.6 Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.post-info {
+    color: #035aa6;
+    font: italic 16px/1.5 sans-serif;
+}
+
+.about {
+    color: #679b9b;
+}
+
+.underlined {
+    text-decoration: underline;
+}

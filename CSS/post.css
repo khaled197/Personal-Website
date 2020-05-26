@@ -1,0 +1,61 @@
+.post-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 1300px 50px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-gap: 20px;
+    padding: 0;
+}
+
+.post-main {
+    padding: 20px;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1150px 150px;
+    grid-gap: 30px;
+    grid-template-areas:
+        "article article article article article article  space side side"
+        "nav nav nav nav nav nav nav nav nav";
+}
+
+.post-hdr {
+    grid-area: header;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.img {
+    width: 40vw;
+    height: 20vw;
+    background-image: url(../Images/panda2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto:
+}
+
+.post-article {
+    grid-area: article;
+    padding: 20px;
+}
+
+.post-sidebar {
+    grid-area: side;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-nav {
+    grid-area: nav;
+    width: 100%;
+    padding-left: 50%;
+}
+
+.posts-nav-list {
+    margin: 0 auto;
+    display: table;
+}
